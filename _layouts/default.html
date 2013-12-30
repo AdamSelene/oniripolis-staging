@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		{% include header.html %}
+    </head>
+    <body>
+    	<div id="wrap">
+	    
+	        {% include navbar.html %}
+
+			{% include signup.html %}
+			
+			{{ page.content }}
+	    
+    	</div>
+    	
+    	{% include footer.html %}
+
+        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/holder.js"></script>
+
+    </body>
+</html>

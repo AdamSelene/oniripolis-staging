@@ -1,4 +1,5 @@
 baseurl: /oniripolis
+encoding: UTF-8
 exclude:
 - ".gitignore"
 - "CNAME"
