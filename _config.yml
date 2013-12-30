@@ -1,0 +1,7 @@
+baseurl: /oniripolis
+exclude:
+- ".gitignore"
+- "CNAME"
+- "LICENSE"
+- "README.md"
+
