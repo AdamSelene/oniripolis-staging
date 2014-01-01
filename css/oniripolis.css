@@ -15,11 +15,21 @@ body {
   z-index: 10;
   top: 30%;
 }
+
 .carousel-inner > .item > img {
 	margin: 0 auto;
-	width: 100%;
+	min-width: 768px;
+	min-height: 432px;
+	width: auto;
+	height: auto;
 	overflow: hidden;
 }
+@media (min-width: 768px) {
+	.carousel-inner > .item > img {
+		width: 100%;
+	}
+}
+
 .carousel-caption .jumbotron {
     background: none;
 }
@@ -29,17 +39,19 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
-#legal dl {
-	margin-bottom: 0;
-}
-#legal dt {
-	width: 210px;
-}
-#legal dd {
-	margin-left: 230px;
-}
 #legal .modal-footer {
 	margin-top : 0;
 } 
 #legal .modal-dialog {
+}
+#legal dl {
+	margin-bottom: 0;
+}
+@media (min-width: 768px) {
+	#legal dt {
+		width: 210px;
+	}
+	#legal dd {
+		margin-left: 230px;
+	}
 }
