@@ -66,3 +66,15 @@ body {
 	left: 15%;
 	bottom: auto;
 }
+
+.dropdown-menu .fb-like,
+.dropdown-menu .twitter-share {
+	padding: 3px 20px;
+}
+
+.dropdown-menu li.horizontal {
+	display: inline-block;
+}
+.dropdown-menu li.horizontal > a {
+	padding: 3px 7px;
+}
