@@ -12,8 +12,8 @@ body {
 	background-color: #777;
 }
 .carousel-caption {
-  z-index: 10;
-  top: 30%;
+	z-index: 10;
+	top: 30%;
 }
 
 .carousel-inner > .item > img {
@@ -62,7 +62,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.33);
 	padding: 10px 20px;
 	border-radius: 10px;
-	top: 10%;
+	top: 15%;
 	left: 15%;
 	bottom: auto;
 }
