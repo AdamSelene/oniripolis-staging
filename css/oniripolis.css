@@ -59,6 +59,8 @@ body {
 	left: 15%;
 	bottom: auto;
 	z-index: 10;
+	max-height: 70%;
+	overflow-y: scroll;
 }
 
 .carousel-caption.jumbotron {
