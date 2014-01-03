@@ -4,6 +4,24 @@ body {
 	background-color: #777;
 	/* The html and body elements cannot have any padding or margin. */
 }
+
+.sprite {
+	background: url('../img/sprites.png') no-repeat;
+	width: 29px;
+	height: 29px;
+	display: block;
+}
+.sprite.sprite-facebook {
+	background-position: -64px -10px;
+}
+.sprite.sprite-twitter {
+	background-position: 0 -10px;
+	width: 36px;
+}
+.sprite.sprite-vimeo {
+	background-position: -121px -10px;
+}
+	
 .carousel {
   height: 100%;
 }
