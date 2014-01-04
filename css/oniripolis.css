@@ -137,6 +137,7 @@ body {
 #signup .modal-content {
 	background-color: rgba(0, 0, 0, 0.66);
 	color: rgb(153, 153, 153);
+	border: none;
 }
 #signup .modal-header {
 	border-bottom-color: rgb(8, 8, 8);
