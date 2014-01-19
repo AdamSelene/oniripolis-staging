@@ -152,7 +152,7 @@ body {
 }
 
 .dropdown-wide {
-	min-width: 200px;
+	min-width: 185px;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
 	background-color: #080808;
