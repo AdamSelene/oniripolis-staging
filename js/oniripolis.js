@@ -11,4 +11,9 @@ $(document).ready(function() {
 			);
 		}
 	);
+	
+    $("#signup").on('shown.bs.modal', function() {
+        $(this).find("#signup-email").focus();
+    });
+	
 });

@@ -50,6 +50,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
+/*
 #legal .modal-footer {
 	margin-top : 0;
 } 
@@ -58,6 +59,8 @@ body {
 #legal dl {
 	margin-bottom: 0;
 }
+*/
+/*
 @media (min-width: 768px) {
 	#legal dt {
 		width: 210px;
@@ -66,7 +69,7 @@ body {
 		margin-left: 230px;
 	}
 }
-
+*/
 
 /*
 .carousel-fade .carousel-inner .item {
@@ -158,27 +161,37 @@ body {
 	background-color: #080808;
 }
 
+
 #signup .modal-dialog {
 	margin-top: 60px;
 }
+
 #signup .modal-body {
 	padding-bottom: 0;
 }
+
+/*
 #signup .modal-content {
 	background-color: rgba(0, 0, 0, 0.66);
 	color: rgb(153, 153, 153);
 	border: none;
 }
+*/
+/*
 #signup .modal-header {
 	border-bottom-color: rgb(8, 8, 8);
 }
+*/
+/*
 #signup .modal-footer {
 	margin-top: 0;
 	border-top-color: rgb(8, 8, 8);
 }
+/*
 #signup .close {
 	color: rgb(153, 153, 153);
 }
+*/
 /*
 .dropdown-menu {
 	background-color: rgba(0, 0, 0, 0.33);
