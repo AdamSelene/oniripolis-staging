@@ -50,55 +50,6 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
-/*
-#legal .modal-footer {
-	margin-top : 0;
-} 
-#legal .modal-dialog {
-}
-#legal dl {
-	margin-bottom: 0;
-}
-*/
-/*
-@media (min-width: 768px) {
-	#legal dt {
-		width: 210px;
-	}
-	#legal dd {
-		margin-left: 230px;
-	}
-}
-*/
-
-/*
-.carousel-fade .carousel-inner .item {
-	opacity: 0;
-	-webkit-transition-property: opacity;
-	-moz-transition-property: opacity;
-	-o-transition-property: opacity;
-	transition-property: opacity;
-	transition-duration: 1s;
-}
-.carousel-fade .carousel-inner .item .carousel-caption {
-	transition: 0.6s ease-in-out left;
-	opacity: 1;
-}
-.carousel-fade .carousel-inner .active {
-  opacity: 1;
-}
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1;
-}
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-*/
-
 
 .carousel-caption {
 	width: 30%;
@@ -170,28 +121,6 @@ body {
 	padding-bottom: 0;
 }
 
-/*
-#signup .modal-content {
-	background-color: rgba(0, 0, 0, 0.66);
-	color: rgb(153, 153, 153);
-	border: none;
-}
-*/
-/*
-#signup .modal-header {
-	border-bottom-color: rgb(8, 8, 8);
-}
-*/
-/*
-#signup .modal-footer {
-	margin-top: 0;
-	border-top-color: rgb(8, 8, 8);
-}
-/*
-#signup .close {
-	color: rgb(153, 153, 153);
-}
-*/
 /*
 .dropdown-menu {
 	background-color: rgba(0, 0, 0, 0.33);
