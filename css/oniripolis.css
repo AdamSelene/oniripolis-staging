@@ -23,6 +23,20 @@ body {
 	background-position: -121px -10px;
 }
 	
+#oniripolis-logo {
+	width: 100%;
+	margin-top: 60px;
+	opacity: 0.85;
+}
+
+#oniripolis-tagline {
+	position: relative;
+	width: 50%;
+	margin-top: -35%;
+	left: 50%;
+	opacity: 0.85;
+}
+
 .carousel {
   height: 100%;
 }
@@ -107,6 +121,14 @@ body {
 #signup .modal-body {
 	padding-bottom: 0;
 }
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+
 
 /*
 .dropdown-menu {
