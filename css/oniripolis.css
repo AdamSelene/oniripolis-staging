@@ -1,7 +1,8 @@
 html,
 body {
 	height: 100%;
-	background-color: #777;
+	/* background-color: #777; */
+	background: url('../img/white-wall.jpg') repeat;
 	/* The html and body elements cannot have any padding or margin. */
 }
 
@@ -25,24 +26,11 @@ body {
 .carousel {
   height: 100%;
 }
+
 .carousel .item {
 	height: 100%;
-	background-color: #777;
 }
 
-.carousel-inner > .item > img.background {
-	margin: 0 auto;
-	min-width: 768px;
-	min-height: 432px;
-	width: auto;
-	height: auto;
-	overflow: hidden;
-}
-@media (min-width: 768px) {
-	.carousel-inner > .item > img.background {
-		width: 100%;
-	}
-}
 
 #wrap {
 	min-height: 100%;
@@ -52,16 +40,15 @@ body {
 }
 
 .carousel-caption {
+	position: relative;
 	width: 30%;
-	min-width: 200px;
+	min-width: 300px;
 	background-color: rgba(0, 0, 0, 0.33);
 	padding: 10px 20px;
+	margin: 10% 0;
 	border-radius: 10px;
-	top: 15%;
-	left: 15%;
 	bottom: auto;
 	z-index: 10;
-	max-height: 70%;
 	overflow-y: scroll;
 }
 
@@ -102,7 +89,7 @@ body {
 	display:block;
 }
 .dropdown-menu.ul-horizontal li.dropdown-header + li {
-	margin-left: 13px;
+/*	margin-left: 13px; */
 }
 
 .dropdown-wide {

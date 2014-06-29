@@ -1,16 +1,19 @@
 <div class="modal fade bs-modal-ssm" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup-title" aria-hidden="true">
 	<div class="modal-dialog modal-ssm">
 	    <div class="modal-content">
-			<form role="form">
+			<form role="form" id="mc-form">
 				<div class="modal-body">
 					<div class="form-group">
 						<p class="help-block">Inscrivez-vous pour recevoir nos invitations</p>
-						<input type="email" class="form-control" id="signup-email" placeholder="Adresse e-mail" />
+						<input type="email" class="form-control" id="mc-email" placeholder="Adresse e-mail" />
+				        <label for="mc-email" class="control-label"></label>
 					</div>
+					<!--
 					<div class="form-group">
 						<p class="help-block">Vous pouvez également indiquer votre code postal pour ne recevoir que des informations locales</p>
 						<input type="text" class="form-control" id="signup-zipcode" pattern="\d*" placeholder="Code postal (facultatif)" />
 					</div>
+					-->
 				</div>
 				<div class="modal-footer">
 		        	<button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
