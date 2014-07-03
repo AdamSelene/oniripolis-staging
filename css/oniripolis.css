@@ -6,6 +6,59 @@ body {
 	/* The html and body elements cannot have any padding or margin. */
 }
 
+div.main {
+	padding-top: 60px;
+}
+
+.navbar-story .nav > .active > a {
+	padding-left: 18px;
+	font-weight: 700;
+	color: #563d7c;
+	background-color: transparent;
+	border-left: 2px solid #563d7c;
+}
+
+.navbar-story .nav .nav > .active > a {
+	padding-left: 28px;
+	font-weight: 500;
+}
+
+.navbar-story .nav > .active > ul {
+	display: block;
+}
+
+.navbar-story .nav .nav {
+	display: none;
+	padding-bottom: 10px;
+}
+.navbar-story .nav .nav li > a {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 30px;
+	font-size: 12px;
+	font-weight: 400;
+}
+.navbar-story .nav li > a {
+	display: block;
+	padding: 4px 20px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #999;
+}
+
+.navbar-story.affix {
+	position: fixed;
+	top: 60px;
+}
+.navbar-story.affix-bottom {
+	position:absolute;
+}
+
+
+div#history {
+	position: relative;
+} 
+
 .sprite {
 	background: url('../img/sprites.png') no-repeat;
 	width: 29px;
@@ -25,7 +78,7 @@ body {
 	
 #oniripolis-logo {
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 0px;
 	opacity: 0.85;
 }
 
