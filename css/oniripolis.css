@@ -10,12 +10,21 @@ div.main {
 	padding-top: 60px;
 }
 
+.history-main .row {
+	padding-top: 60px;
+}
+
+.history-main .panel {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+
 .navbar-story .nav > .active > a {
 	padding-left: 18px;
 	font-weight: 700;
-	color: #563d7c;
+	color: white;
 	background-color: transparent;
-	border-left: 2px solid #563d7c;
+	border-left: 2px solid white;
 }
 
 .navbar-story .nav .nav > .active > a {
@@ -25,6 +34,11 @@ div.main {
 
 .navbar-story .nav > .active > ul {
 	display: block;
+}
+
+.navbar-story .nav > li > a:hover {
+	color: #fff;
+	background-color: transparent;
 }
 
 .navbar-story .nav .nav {
@@ -54,6 +68,22 @@ div.main {
 	position:absolute;
 }
 
+.navbar-story {
+	background-color: #222;
+	border-color: #080808;
+	color:#999;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	font-weight: normal;
+	width: 165px;
+}
+
+.navbar-link:hover {
+	text-decoration:none;
+}
 
 div#history {
 	position: relative;
@@ -90,6 +120,7 @@ div#history {
 	opacity: 0.85;
 }
 
+/*
 .carousel {
   height: 100%;
 }
@@ -97,6 +128,7 @@ div#history {
 .carousel .item {
 	height: 100%;
 }
+*/
 
 
 #wrap {
@@ -106,6 +138,7 @@ div#history {
 	padding: 0;
 }
 
+/*
 .carousel-caption {
 	position: relative;
 	width: 30%;
@@ -118,13 +151,16 @@ div#history {
 	z-index: 10;
 	overflow-y: scroll;
 }
+*/
 
+/*
 .carousel-caption.jumbotron {
     width: 50%;
     min-width: 200px;
     top: 30%;
     left: 25%;
 }
+*/
 
 .navbar-inverse .dropdown-menu > li > a:hover,
 .navbar-inverse .dropdown-menu > li > a:focus {
@@ -166,6 +202,16 @@ div#history {
 	background-color: #080808;
 }
 
+.carousel img {
+	opacity: 0.8;
+/*
+	border: 10px solid #fff;
+	border-bottom: 45px solid #fff;
+	-webkit-box-shadow: 3px 3px 3px #777;
+	-moz-box-shadow: 3px 3px 3px #777;
+	box-shadow: 3px 3px 3px #777;
+*/
+}
 
 .modal-dialog {
 	margin-top: 60px;
