@@ -81,6 +81,10 @@ div.main {
 	width: 165px;
 }
 
+.navbar-story .panel img {
+	width: 100%;
+}
+
 .navbar-link:hover {
 	text-decoration:none;
 }
@@ -211,6 +215,10 @@ div#history {
 	-moz-box-shadow: 3px 3px 3px #777;
 	box-shadow: 3px 3px 3px #777;
 */
+}
+
+cite {
+	font-style: italic;
 }
 
 .modal-dialog {
