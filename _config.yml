@@ -1,5 +1,5 @@
-baseurl: /
-url: http://oniripolis.fr
+baseurl: /oniripolis
+url: http://adamselene.github.io/oniripolis/
 encoding: UTF-8
 exclude:
 - ".gitignore"
