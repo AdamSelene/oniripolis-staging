@@ -10,7 +10,7 @@ div.main {
 	padding-top: 60px;
 }
 
-.history-main .row {
+.history-main .row, #top > .col-md-2 {
 	padding-top: 60px;
 }
 
