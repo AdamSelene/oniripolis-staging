@@ -1,9 +1,8 @@
 baseurl: /oniripolis
-url: http://adamselene.github.io/oniripolis/
+url: http://oniripolis.fr
 encoding: UTF-8
 exclude:
 - ".gitignore"
 - "CNAME"
 - "LICENSE"
 - "README.md"
-
