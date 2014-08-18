@@ -12,7 +12,7 @@ $.ajaxChimp.translations = {
 
 $(document).ready(function() {
 
-    $('#main-navbar a[href="' + this.location.pathname + '"]').parent().addClass('active');
+    $('#main-navbar a[href="' + this.location.pathname.substr(this.location.pathname.lastIndexOf('/')+1) + '"]').parent().addClass('active');
 
 	$('.caption-excerpt .btn').click(
 		function(e) {
