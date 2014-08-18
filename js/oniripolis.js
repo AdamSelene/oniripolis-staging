@@ -11,6 +11,9 @@ $.ajaxChimp.translations = {
 };
 
 $(document).ready(function() {
+
+    $('#main-navbar a[href="' + this.location.pathname + '"]').parent().addClass('active');
+
 	$('.caption-excerpt .btn').click(
 		function(e) {
 		    var caption = $(this).parents('.carousel-caption');
