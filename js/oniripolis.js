@@ -1,12 +1,12 @@
 $.ajaxChimp.translations = {
     'fr': {
-        'submit': 'Enregistrement en cours...',
-        0: 'Nous vous avons envoyé un e-mail de confirmation',
-        1: 'S\'il vous plaît entrer une valeur',
-        2: 'Une adresse e-mail doit contenir un seul @',
-        3: 'La partie domaine de l\'adresse e-mail n\'est pas valide (la partie après le @:)',
+        'submit': 'Enregistrement en cours…',
+        0: 'Nous vous avons envoyé un email de confirmation',
+        1: 'Veuillez entrer une adresse email',
+        2: 'Une adresse email doit contenir un seul @',
+        3: 'La partie domaine de l\'adresse email n\'est pas valide (la partie après le @:)',
         4: 'La partie nom d\'utilisateur de l\'adresse email n\'est pas valide (la partie avant le signe @:)',
-        5: 'Cette adresse e-mail semble faux ou non valides. S\'il vous plaît entrer une adresse email valide'
+        5: 'Cette adresse email ne semble pas valide'
     }
 };
 
@@ -43,6 +43,15 @@ $(document).ready(function() {
 		},
 		language: 'fr'
 	});
+	
+	if (window.location.hash == "#confirm") {
+		$("#confirm").modal("show");
+	} else if (window.location.hash == "#welcome") {
+		$("#welcome").modal("show");
+	} else if (window.location.hash == "#goodbye") {
+		$("#goodbye").modal("show");
+	}
+
 
 	
 });
