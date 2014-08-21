@@ -6,6 +6,22 @@ body {
 	/* The html and body elements cannot have any padding or margin. */
 }
 
+#wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.main {
+	padding-top: 60px;
+}
+
+/* Panels */
+.panel {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
 .panel a, .modal a {
 	color: #606870;
 	text-decoration: underline;
@@ -19,17 +35,11 @@ body {
 	text-decoration: none;
 }
 
-div.main {
-	padding-top: 60px;
-}
 
 .history-main .row, #top > .col-md-2 {
 	padding-top: 60px;
 }
 
-.history-main .panel {
-	background-color: rgba(255, 255, 255, 0.8);
-}
 
 
 .navbar-story .nav > .active > a {
@@ -100,8 +110,9 @@ div.main {
 
 div#history {
 	position: relative;
-} 
+}
 
+/* Sprites (share menu) */
 .sprite {
 	background: url('../img/sprites.png') no-repeat;
 	width: 29px;
@@ -118,7 +129,8 @@ div#history {
 .sprite.sprite-vimeo {
 	background-position: -121px -10px;
 }
-	
+
+/* Image positionning */	
 #oniripolis-logo {
 	width: 100%;
 	margin-top: 0px;
@@ -133,48 +145,8 @@ div#history {
 	opacity: 0.85;
 }
 
-/*
-.carousel {
-  height: 100%;
-}
 
-.carousel .item {
-	height: 100%;
-}
-*/
-
-
-#wrap {
-	min-height: 100%;
-	height: auto;
-	margin: 0 auto;
-	padding: 0;
-}
-
-/*
-.carousel-caption {
-	position: relative;
-	width: 30%;
-	min-width: 300px;
-	background-color: rgba(0, 0, 0, 0.33);
-	padding: 10px 20px;
-	margin: 10% 0;
-	border-radius: 10px;
-	bottom: auto;
-	z-index: 10;
-	overflow-y: scroll;
-}
-*/
-
-/*
-.carousel-caption.jumbotron {
-    width: 50%;
-    min-width: 200px;
-    top: 30%;
-    left: 25%;
-}
-*/
-
+/* Main navbar and menus */
 .navbar-inverse .dropdown-menu > li > a:hover,
 .navbar-inverse .dropdown-menu > li > a:focus {
 	color: #ffffff;
@@ -204,26 +176,12 @@ div#history {
 .dropdown-menu.ul-horizontal li.dropdown-header {
 	display:block;
 }
-.dropdown-menu.ul-horizontal li.dropdown-header + li {
-/*	margin-left: 13px; */
-}
 
 .dropdown-wide {
 	min-width: 185px;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
 	background-color: #080808;
-}
-
-.carousel img {
-	opacity: 0.8;
-/*
-	border: 10px solid #fff;
-	border-bottom: 45px solid #fff;
-	-webkit-box-shadow: 3px 3px 3px #777;
-	-moz-box-shadow: 3px 3px 3px #777;
-	box-shadow: 3px 3px 3px #777;
-*/
 }
 
 cite {
@@ -244,6 +202,7 @@ cite {
     float: none;
 }
 
+/* Buttons */
 .btn-oniripolis {
 	color: #fff;
 	background-color: gray;
@@ -256,6 +215,7 @@ cite {
 	border-color: #5c5c5c;
 }
 
+/* Width-specific rules */
 @media (min-width: 768px) {
 }
 @media (min-width: 992px) {
@@ -264,13 +224,4 @@ cite {
 }
 
 
-/*
-.dropdown-menu {
-	background-color: rgba(0, 0, 0, 0.33);
-}
-.dropdown-header {
-	color: white;
-	font-weight: bold;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-*/
+
