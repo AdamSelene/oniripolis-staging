@@ -1,8 +1,9 @@
-baseurl: /oniripolis
-url: http://oniripolis.fr
+baseurl: /oniripolis-staging
+url: http://oniripolis-staging.github.io
 encoding: UTF-8
 exclude:
 - ".gitignore"
+- ".gitattributes"
 - "CNAME"
 - "LICENSE"
 - "README.md"
