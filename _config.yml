@@ -1,5 +1,5 @@
 baseurl: /oniripolis-staging
-url: http://oniripolis-staging.github.io
+url: http://adamselene.github.io/oniripolis-staging
 encoding: UTF-8
 exclude:
 - ".gitignore"
